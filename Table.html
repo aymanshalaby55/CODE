@@ -1,0 +1,63 @@
+
+<html>
+    <head>
+        <meta charset="UFC-8" />
+        <title>MyHTML learning</title>
+    </head>
+    <body>
+        <h1>Table</h1>
+        <!--
+            - thead : hold colums.
+            - tbody : hold data.
+            - tfoot : last row.
+            ------------------
+            - tr : table row.
+            - td : data cell.
+            - th : header cell , bold by defult.
+            ------------------
+            - not recommended to use border.
+            ------------------
+            -nothing happend if you delete thead || tbody || tfoot
+            - just used to make understandinf code easer.
+        -->
+        <table border = "1">
+            <!--table Name-->
+            <caption>Student table</caption>
+
+            <thead>
+                <tr>
+                    <th>firsr</th>
+                    <th>last</th>
+                    <th>marks</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>osama</td>
+                    <td>mohamed</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>ayman</td>
+                    <td>mohamed</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>mohamed</td>
+                    <td>mohamed</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <!--colspan : merge rows-->
+                    <td colspan = "2">one</td>
+                    <td>three</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </body>
+</html>
